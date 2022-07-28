@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+* {
+  background-color: #3077a0;
+  /* background-color: black; */
+  font-family: 'Raleway',monospace ;
+
+}
+.instructions{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.content{
+  padding-top: 60px;
+  
+}
+h5{
+  display: flex;
+  margin: 0px;
+  color: aliceblue;
+  justify-content: center;
+  padding-top: 10px;
+}
+.sticky {
+  position: fixed;
+  /* top: 0; */
+  width: 100%
+}
+ul li {
+  vertical-align: middle;
+}
+ul{
+  margin-bottom: 0px;
+}
+html::-webkit-scrollbar {
+  width: 0.5vw;
+  
+}
+
+
+html::-webkit-scrollbar-thumb {
+  background-color: #2f8bab;
+  border-radius: 5px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #316094;
+}
+
+.footer {
+  color: aliceblue;
+  background-color:#3077a0;
+  display: flex;
+  justify-content: center;
+  
+  padding: 60px ;
+}
+hr{
+  color: aliceblue;
+}
+
+
+.flexbox-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexbox-item {
+  padding: 20px;
+}
+
+.container {
+  color: aliceblue;
+}
+
+button {
+  border: 2px;
+  border-color: aliceblue;
+}
+
+button h5 {
+  color: aliceblue;
+  padding: 20px;
+}
+
+button img {
+
+  width: 150px;
+  border: none;
+  /* background-color: #24252A; */
+  margin: auto;
+  /* border-radius: 10px; */
+  /* padding: 20px; */
+
+}
+
+.col {
+  margin: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.Theme {
+  padding: 10px 10px;
+  background-color: aliceblue;
+  border: none;
+  color: black;
+  border-radius: 25px;
+}
+header button:hover{
+  background-color: rgba(240, 248, 255, 0.767);
+}
+h3{
+  color: aliceblue;
+}
+
+.navlinks li a {
+  text-decoration: none;
+  font-size: large;
+  color: rgb(240, 248, 255);
+
+}
+
+h5 ul{
+  list-style: none;
+}
+h5 ul li{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+.navlinks li a:hover {
+  text-decoration: none;
+  color: rgba(240, 248, 255, 0.8);
+
+}
+
+.navlinks li {
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
